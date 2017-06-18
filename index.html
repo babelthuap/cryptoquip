@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cryptoquip</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">Cryptoquip</div>
+    <hr/>
+    <div class="section">
+      <b>Ciphertext:</b>
+      <textarea id="ciphertext" rows="4">Ab cd, be fba ab cd- agha jk agd lmdkajbf.</textarea>
+    </div>
+    <div class="section">
+      <b>Frequencies <button id="toggle-freqs">show/hide</button></b>
+      <div id="freqs"></div>
+    </div>
+    <div class="section">
+      <div class="col w30" id="mapping"></div>
+      <div class="col w70">
+        <b>Plaintext:</b>
+        <div id="plaintext"></div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
